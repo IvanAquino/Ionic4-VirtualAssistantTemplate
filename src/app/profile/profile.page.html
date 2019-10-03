@@ -1,0 +1,150 @@
+<ion-header no-border>
+  <ion-toolbar color="light">
+    <ion-buttons slot="start">
+      <ion-back-button color="medium"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="text-primary text-11pt text-bold">Gabriela Bryndal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="bg-color">
+
+  <div class="bg-light ion-padding-vertical profile-container">
+
+    <div class="text-10pt text-custom ion-text-center">
+      Product Designer
+    </div>
+
+    <ion-grid class="ion-no-padding">
+      <ion-row>
+        <ion-col size="6">
+          <ion-avatar>
+            <img src="http://bdatechnical.com/wp-content/uploads/2019/06/empty-profile-250x250.jpg" />
+          </ion-avatar>
+          <p class="text-success text-11pt ion-text-center">Accepted!</p>
+        </ion-col>
+        <ion-col size="6" class="ion-text-center">
+          <circle-progress [percent]="85" [radius]="50" [outerStrokeWidth]="4" [innerStrokeWidth]="0"
+            [outerStrokeColor]="'#10dc60'" [innerStrokeColor]="'none'" [animation]="true" [animationDuration]="300"
+            [showSubtitle]="false" [titleFontSize]="18">
+          </circle-progress>
+          <p class="text-primary text-10pt ion-text-center">* personal goals ratio</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </div>
+
+  <div class="ion-padding-horizontal margin-top">
+    <ion-grid class="ion-no-padding">
+      <ion-row>
+        <ion-col size="6">
+          <div class="text-primary text-bold text-11pt">Personal goals</div>
+        </ion-col>
+        <ion-col size="6" tappable>
+          <div class="text-custom ion-text-right text-10pt">See all</div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <ion-slides mode="ios" pager="ios" class="slider-goals">
+    <ion-slide>
+      <ion-card class="width-100percent" mode="ios">
+        <ion-card-content>
+          <ion-grid class="ion-no-padding">
+            <ion-row>
+              <ion-col size="8">
+                <div class="ion-text-left text-primary text-12pt">iOS ARKIT 2</div>
+              </ion-col>
+              <ion-col size="4">
+                <div class="ion-text-right text-primary text-12pt">3/5</div>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+          <ion-progress-bar value="0.6" color="success"></ion-progress-bar>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+  
+    <ion-slide>
+      <ion-card class="width-100percent" mode="ios">
+        <ion-card-content>
+          <ion-grid class="ion-no-padding">
+            <ion-row>
+              <ion-col size="8">
+                <div class="ion-text-left text-primary text-12pt">Apollo GraphQL</div>
+              </ion-col>
+              <ion-col size="4">
+                <div class="ion-text-right text-primary text-12pt">5/5</div>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+          <ion-progress-bar value="0.9" color="success"></ion-progress-bar>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+
+  <div class="ion-padding-horizontal">
+
+    <ion-grid class="ion-no-padding">
+      <ion-row>
+        <ion-col size="6">
+          <div class="text-primary text-bold text-11pt">Current tasks</div>
+        </ion-col>
+        <ion-col size="6" tappable>
+          <div class="text-custom ion-text-right text-10pt">Calendar</div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </div>
+
+  <ion-slides pager="ios" class="slider-card">
+  
+    <ion-slide>
+      <ion-card mode="ios" class="width-100percent">
+        <ion-card-content class="no-padding-bottom">
+          <ion-grid class="ion-no-padding ion-no-margin">
+            <ion-row>
+              <ion-col size="7">
+                <div class="ion-text-left">
+                  <ion-icon name="arrow-round-up" class="icon-green"></ion-icon> &nbsp;&nbsp;&nbsp;
+                  <span class="text-primary">TIS-12</span>
+                </div>
+              </ion-col>
+              <ion-col size="5">
+                <div class="label-primary">In progress</div>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-card-content>
+        <ion-card-content>
+          <div class="ion-text-left">
+            <div class="text-11pt text-primary">
+              Mobile app UX Review
+            </div>
+          </div>
+          <br>
+          <ion-grid class="ion-no-padding">
+            <ion-row>
+              <ion-col size="6">
+                <div class="ion-text-left text-custom text-9pt">
+                  <ion-icon name="time"></ion-icon> 26-04 (Friday)
+                </div>
+              </ion-col>
+              <ion-col size="6" class="ion-text-right">
+                <div class="ion-text-right text-custom text-pt">
+                  <ion-icon name="chatbubbles"></ion-icon> 14 comments
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+  
+  </ion-slides>
+
+</ion-content>

@@ -2,7 +2,7 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/IvnAqn)
 
 
-# Ionic 4 profile pages
+# Ionic 4 Virtual Assistant Template
 
 ## How to use it in my project - Como usarlo en mi proyecto
 

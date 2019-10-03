@@ -19,6 +19,10 @@ To import use this line in global.scss / Usar esta linea en global.scss para imp
 
 ### Screenshots / Capturas de pantalla
 
+<img src="screenshots/img1.png?raw=1" width="200" />
+<img src="screenshots/img2.png?raw=1" width="200" />
+<img src="screenshots/img3.png?raw=1" width="200" />
+
 ![Screenshot 1](screenshots/img1.png?raw=1)
 ![Screenshot 2](screenshots/img3.png?raw=1)
 ![Screenshot 3](screenshots/img3.png?raw=1)
